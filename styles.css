@@ -30,6 +30,17 @@ header nav ul li a:hover {
     text-decoration: none;
 }
 
+.span {
+    border-left: 1px solid #FFFF00;
+}
+.container {
+    display: block;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
 section {
     padding: 20px;
     text-align: center;
